@@ -12,7 +12,9 @@
 
 ### 1.0 Bun
 
-**`curl -fsSL https://bun.sh/install | bash `**
+```bash
+curl -fsSL https://bun.sh/install | bash
+```
 
 ### 2.0 Elysia
 
@@ -20,7 +22,9 @@
 
 in root directory
 
-**`bun create elysia`**
+```bash
+bun create elysia
+```
 
 ### 3.0 SvelteKit
 
@@ -28,11 +32,15 @@ in root directory
 
 in directory `svelte`
 
-**`bun create svelte@latest`**
+```bash
+bun create svelte@latest
+```
 
 1. current directory
 2. skeleton project
 3. typescript
 4. eslint & prettier
 
-**`bun install`**
+```bash
+bun install
+```
