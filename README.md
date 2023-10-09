@@ -55,7 +55,7 @@ bun add @elysiajs/eden
 
 ### 4.0 EdenTreaty with Svelte Fetch ?
 
-:question: How could I use EdenTreaty with the custom Svelte Fetch ??
+:question: :question: How could I use EdenTreaty with the custom Svelte Fetch :question: :question:
 
 <a href="https://github.com/robots4life/bes/tree/master/svelte/src/routes/no-api/+page.server.ts#L20" target="_blank">https://github.com/robots4life/bes/tree/master/svelte/src/routes/no-api/+page.server.ts#L20</a>
 
