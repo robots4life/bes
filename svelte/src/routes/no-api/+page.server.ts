@@ -17,9 +17,14 @@ export const load: PageServerLoad = async ({ route, fetch }) => {
 	// how could I use EdenTreaty with the custom Svelte Fetch ??
 	// https://kit.svelte.dev/docs/web-standards#fetch-apis
 	// https://kit.svelte.dev/docs/load#making-fetch-requests
-	const client = edenTreaty<API>('/api');
+	// const client = edenTreaty<API>('/api');
+
+	// https://discord.com/channels/1044804142461362206/1044807567022493766/1160931471301824592
+	const client = edenTreaty<API>('/', { fetcher: fetch });
 
 	const request = await client.api.get();
 	const response = request;
-	return { response };
+	console.log(response.data);
+
+	return response.data;
 };

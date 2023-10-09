@@ -105,3 +105,11 @@ export const load: PageServerLoad = async ({ route, fetch }) => {
 error: Cannot use relative URL (/api/api) with global fetch — use `event.fetch` instead: https://kit.svelte.dev/docs/web-standards#fetch-apis
 
 ```
+
+:zap: :zap: **Solution** :zap: :zap:
+
+<a href="https://discord.com/channels/1044804142461362206/1044807567022493766/1160931471301824592" target="_blank">https://discord.com/channels/1044804142461362206/1044807567022493766/1160931471301824592</a>
+
+```ts
+const client = edenTreaty<API>("/", { fetcher: fetch });
+```
