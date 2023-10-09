@@ -53,7 +53,7 @@ bun add elysia
 bun add @elysiajs/eden
 ```
 
-### 4.0 Eden with Svelte Fetch ?
+### 4.0 EdenTreaty with Svelte Fetch ?
 
 :question: How could I use EdenTreaty with the custom Svelte Fetch ??
 
