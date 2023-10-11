@@ -140,7 +140,7 @@ export const load: PageServerLoad = async ({ route, fetch }) => {
 };
 ```
 
-:exclamation: Not quite the solution. :exclamation:
+:exclamation: :exclamation: Not quite the solution. :exclamation: :exclamation:
 
 For some reason in
 
